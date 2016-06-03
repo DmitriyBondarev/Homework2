@@ -17,7 +17,7 @@ nav {
 body{
 	background: gray;
 }
-header, main, footer{
+header, .main, footer{
 	background: white;
 	border: solid white 1px;
 	border-radius: 10px;
@@ -85,25 +85,42 @@ h2 {
 	margin-left:0;
 	font:17px Arial;
 }
+/* ------------------------- JS ---------------------------------*/
+/* ok */
 /* ------------------------- Calc -------------------------------*/
+
 table {
 	margin: 0 auto;
+	padding: 0;
 	border:0px solid blue;
 	border-collapse:collapse;
 }
 #CalcDisp {
-	width: 205px;
+	width:306px;
+	height:28px;
 	margin:1px;
+	text-align:right;
 }
 button {
-	width:40px;
-	margin:1px 1px 6px 1px;
+	width:60px;
+	height:28px;
+	margin:1px 1px 4px 1px;
+	border: 1px solid rgb(160, 160, 160);
+	border-radius:1px;
+	font-size:16px;
+}
+td :hover {
+	background-color: rgb(190, 215, 248);
+}
+td :focus {
+	font-size:14px;
+	color: rgb(76, 130, 190);
 }
 #zero {
-	width:82px;
+	width:122px;
 }
 #result {
-	height:45px;
+	height:62px;
 }
 /* ------------------------- Test -------------------------------*/
 #resTest {

@@ -10,7 +10,7 @@
 			<img src="webLogo.png" alt="Логотип" width="220" />
 			<h1>Основы Web-технологий</h1>
 			<nav>
-				<ul class="menu" li>
+				<ul class="menu">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="web-tech.html">Web-технологии</a>
 						<ul class="submenu">
@@ -25,39 +25,41 @@
 			</nav>
 		</header>
 		<main>
-			<form name="test">
-				<p>Какой тег предназначен для создания ссылок:<br />
-					<label><input type="radio" name="ref">&lt;a&gt;</label><br />
-					<label><input type="radio" name="ref">&lt;a /&gt;</label><br />
-					<label><input type="radio" name="ref">&lt;ref&gt;</label><br />
-					<label><input type="radio" name="ref">&lt;ref /&gt;</label>
-				</p>
-				<p>Какой тег предназначен для создания нумерованного списка:<br />
-					<label><input type="radio" name="lists">&lt;li&gt;</label><br />
-					<label><input type="radio" name="lists">&lt;dl&gt;</label><br />
-					<label><input type="radio" name="lists">&lt;ol&gt;</label><br />
-					<label><input type="radio" name="lists">&lt;ul&gt;</label>
-				</p>
-				<p>Какой тег предназначен для передачи служебной информации браузеру:<br />
-					<label><input type="radio" name="serv">&lt;info&gt;</label><br />
-					<label><input type="radio" name="serv">&lt;info /&gt;</label><br />
-					<label><input type="radio" name="serv">&lt;meta&gt;</label><br />
-					<label><input type="radio" name="serv">&lt;meta /&gt;</label>
-				</p>
-				<p>Какие теги используются при создании таблицы:<br />
-					<label><input type="checkbox" name="tables">&lt;body&gt;</label><br />
-					<label><input type="checkbox" name="tables">&lt;td&gt;</label><br />
-					<label><input type="checkbox" name="tables">&lt;groupcol&gt;</label><br />
-					<label><input type="checkbox" name="tables">&lt;col&gt;</label>
-				</p>
-				<p>Какие атрибуты используются при создании форм:<br />
-					<label><input type="checkbox" name="forms">&lt;autocomplete&gt;</label><br />
-					<label><input type="checkbox" name="forms">&lt;action&gt;</label><br />
-					<label><input type="checkbox" name="forms">&lt;charset&gt;</label><br />
-					<label><input type="checkbox" name="forms">&lt;validate&gt;</label>
-				</p>
-				<button id="resTest"type="button">Результат</button>
-			</form>
+			<div class="main">
+				<form name="test">
+					<p>Какой тег предназначен для создания ссылок:<br />
+						<label><input type="radio" name="ref">&lt;a&gt;</label><br />
+						<label><input type="radio" name="ref">&lt;a /&gt;</label><br />
+						<label><input type="radio" name="ref">&lt;ref&gt;</label><br />
+						<label><input type="radio" name="ref">&lt;ref /&gt;</label>
+					</p>
+					<p>Какой тег предназначен для создания нумерованного списка:<br />
+						<label><input type="radio" name="lists">&lt;li&gt;</label><br />
+						<label><input type="radio" name="lists">&lt;dl&gt;</label><br />
+						<label><input type="radio" name="lists">&lt;ol&gt;</label><br />
+						<label><input type="radio" name="lists">&lt;ul&gt;</label>
+					</p>
+					<p>Какой тег предназначен для передачи служебной информации браузеру:<br />
+						<label><input type="radio" name="serv">&lt;info&gt;</label><br />
+						<label><input type="radio" name="serv">&lt;info /&gt;</label><br />
+						<label><input type="radio" name="serv">&lt;meta&gt;</label><br />
+						<label><input type="radio" name="serv">&lt;meta /&gt;</label>
+					</p>
+					<p>Какие теги используются при создании таблицы:<br />
+						<label><input type="checkbox" name="tables">&lt;body&gt;</label><br />
+						<label><input type="checkbox" name="tables">&lt;td&gt;</label><br />
+						<label><input type="checkbox" name="tables">&lt;groupcol&gt;</label><br />
+						<label><input type="checkbox" name="tables">&lt;col&gt;</label>
+					</p>
+					<p>Какие атрибуты используются при создании форм:<br />
+						<label><input type="checkbox" name="forms">&lt;autocomplete&gt;</label><br />
+						<label><input type="checkbox" name="forms">&lt;action&gt;</label><br />
+						<label><input type="checkbox" name="forms">&lt;charset&gt;</label><br />
+						<label><input type="checkbox" name="forms">&lt;validate&gt;</label>
+					</p>
+					<button id="resTest"type="button">Результат</button>
+				</form>
+			</div>
 		</main>
 		<footer>
 			<address>
